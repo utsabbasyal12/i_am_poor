@@ -4,11 +4,13 @@ void main() {
   runApp(MaterialApp(
     home: Scaffold(
       appBar: AppBar(
-      title: Text("I AM POOR"),
+      title: Center(child: Text("I AM POOR")),
         backgroundColor: Colors.blueGrey[900],
       ),
-      body: Image(
-        image: AssetImage("images/poor.jpeg"),
+      body: Center(
+        child: Image(
+          image: AssetImage("images/poor.jpeg"),
+        ),
       ),
     ),
 
