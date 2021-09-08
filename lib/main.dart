@@ -7,6 +7,9 @@ void main() {
       title: Text("I AM POOR"),
         backgroundColor: Colors.blueGrey[900],
       ),
+      body: Image(
+        image: AssetImage("images/poor.jpeg"),
+      ),
     ),
 
   ));
